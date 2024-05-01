@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes y Párrafo</title>
+    <link rel="stylesheet" href="/css/Css Ex/doce.css">
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="/img/logo1.png" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="/paginas ex/collage.html">Actividades</a></li>
+                <li><a href="/paginas ex/doce.html">Docentes</a></li>
+                <li><a href="/paginas ex/alumnos.html">Alumnos</a></li>
+                <li><a href="/paginas ex/info.html">Info</a></li>
+            </ul>
+        </nav>
+    </header>
+    <style>
+        /* Estilos básicos */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #5a5959;
+        }
+
+        /* Estilos para el contenedor de las imágenes */
+        .image-container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Estilos para las imágenes */
+        .image-container img {
+            width: 350px;
+            height: 400px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(247, 247, 247, 0.959);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+            /* Transición de escala al pasar el mouse */
+        }
+
+        /* Estilos para la animación al pasar el mouse */
+        .image-container img:hover {
+            transform: scale(1.1);
+            /* Aumenta ligeramente el tamaño al pasar el mouse */
+        }
+
+        /* Estilos para el párrafo */
+        p {
+            text-shadow: #000000;
+            text-align: center;
+            color: #ffffff;
+            font-size: 46px;
+            line-height: 1.5;
+            padding: 0 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-container">
+        <img src="/img/a1.jpg" alt="Imagen 1">
+        <img src="/img/a2.jpg" alt="Imagen 2">
+        <img src="/img/a3.jpg" alt="Imagen 3">
+        <p>"En esta escuela encontramos más que aulas y libros; encontramos un hogar donde nuestros sueños se hacen
+            realidad, donde cada desafío es una oportunidad de crecer, y donde cada paso nos acerca más a nuestro futuro
+            brillante. ¡Aquí, juntos, somos capaces de alcanzar lo imposible!"</p>
+    </div>
+</body>
+</html>
